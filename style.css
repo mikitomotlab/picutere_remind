@@ -1,0 +1,49 @@
+body{
+    background: image/back.gif;
+    font-family: Meiryo;/*書体*/
+    width: 1000px;/*文章の長さ（幅）*/
+    padding: 10px;/*文字間隔*/
+    margin: 10px 100px ;/*外枠との間隔　上下　左右*/
+}
+
+div{
+     text-aligin: left;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:20px;
+}
+
+table, th, td {
+  border : 1px solid #ccc;
+}
+
+th{
+  background-color : #ccc;
+}
+
+#btn_start {
+  margin: 0 8px 0 0;
+  width:160px;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  padding:8px 0 10px 0;
+  color:#fff;
+  background-color:#ff6347;
+}
+
+#btn_start:hover{
+  margin: 0 8px 0 0;
+  width:160px;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  padding:8px 0 10px 0;
+  color:#fff;
+  background-color:#ff4500;
+}
